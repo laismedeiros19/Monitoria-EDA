@@ -1,0 +1,1 @@
+#include <stdio.h>void dobra(int *n) {  // Recebe um ponteiro para int    *n = *n * 2;      // Altera o valor da variável apontada}int main() {    int x = 4;    dobra(&x);        // Passa o ENDEREÇO de x (usando &)    printf("Valor de x após dobrar: %d\n", x);    return 0;}
